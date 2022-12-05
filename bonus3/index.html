@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PacMan</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/12Bool.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container-lg">
+
+            <div class="row">
+    
+                <!-- riga 1 -->
+                <div class="col-lg-1 borderTRL">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box pinkGhost"></div>
+                </div>
+
+                <div class="col-lg-1 borderTB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTop">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTR">
+                    <div class="box"></div>
+                </div>
+
+                <!-- riga 2 -->
+                <div class="col-lg-1 borderBL">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTR">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTR">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderTR">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <!-- riga 3 -->
+                <div class="col-lg-1 borderBL">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box greenGhost"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <!-- riga 4 -->
+                <div class="col-lg-1 borderLeft">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <!-- riga 5 -->
+                <div class="col-lg-1 borderBL">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box redGhost"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <!-- riga 6 -->
+                <div class="col-lg-1 borderRL">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRight">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <!-- riga 7 -->
+                <div class="col-lg-1 borderBL">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderBottom">
+                    <div class="box"></div>
+                </div>
+
+                <div class="col-lg-1 borderRB">
+                    <div class="box"></div>
+                </div>
+
+            </div>
+    
+        </div>
+    </main>
+</body>
+</html>
