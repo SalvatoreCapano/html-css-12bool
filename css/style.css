@@ -6,14 +6,13 @@
 
 .box {
     width: 100%;
-    /* height: 60px; */
     padding: 20px;
+
     background-color: var(--primaryColor);
     border: 1px solid white;
 
     color: white;
     text-align: center;
-    /* line-height: 60px; */
 }
 
 .nested {
@@ -26,6 +25,7 @@
     margin-bottom: 30px;
 }
 
-#homeworks > .row:last-child .box {
+#homeworks > .row:last-child .box,
+#offset .box {
     padding: 30.5px 0;  /* 20px + 10.5px (il font nella row precendete era alto 21px)*/
 }
