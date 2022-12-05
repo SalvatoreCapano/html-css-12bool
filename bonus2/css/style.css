@@ -1,0 +1,40 @@
+/* regole generali */
+:root {
+    --primaryColor: #006cfa;
+    --secondaryColor: #00e165;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+
+    background-color: var(--primaryColor);
+    border: 1px solid white;
+
+    color: white;
+    text-align: center;
+}
+
+.specialBox {
+    padding: 60.5px;
+}
+
+.innerBox {
+    width: 100%;
+    height: 60px;
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--primaryColor);
+}
+
+.middleCol {
+    align-self: center;
+}
+
+.bottomCol {
+    align-self: flex-end;
+}
