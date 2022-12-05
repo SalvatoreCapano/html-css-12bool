@@ -1,0 +1,39 @@
+body {
+    background-color: #141414;
+}
+
+/* Palette Colori */
+.yellow {
+    background-color: #ffeb3b;
+}
+
+.darkYellow {
+    background-color: #ffc107;
+}
+
+.lightBlue {
+    background-color: #4fc3f7;
+}
+
+.blue {
+    background-color: #2196f3;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.black {
+    background-color: #000000;
+}
+
+[class*="col"] {
+    display: flex;
+}
+
+.box {
+    flex-grow: 1;
+    /* border: 1px dashed red; */
+    
+    aspect-ratio: 1/1;
+}
